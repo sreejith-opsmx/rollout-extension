@@ -2,6 +2,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: ArgoCDExtension
 metadata:
   name: argo-rollouts
+  labels:
+    name : "Rollouts Dashboard"
+    icon : "fa-table-columns"
   finalizers:
     - extensions-finalizer.argocd.argoproj.io
 spec:
