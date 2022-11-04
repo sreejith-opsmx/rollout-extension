@@ -3,7 +3,7 @@ kind: ArgoCDExtension
 metadata:
   name: argo-rollouts
   labels:
-    name : "Rollouts Dashboard"
+    name : "Rollouts-Dashboard"
     icon : "fa-table-columns"
   finalizers:
     - extensions-finalizer.argocd.argoproj.io
